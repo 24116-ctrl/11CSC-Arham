@@ -1,3 +1,36 @@
 body {
-    font-family: 'ADLaM Display';font-size: 22px;
+    font-family: 'Alexandria';font-size: 22px;
+    colour: green;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0c6100;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: White  ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #397307;
 }
