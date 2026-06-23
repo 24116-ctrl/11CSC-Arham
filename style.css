@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 10px;
+  font-size: 28px
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1c7800;
+  display: flex;
+  justify-content: center;
+}
+    
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 45px;
+  text-decoration: none;
+  border-bottom:10px solid #133a0f;
+  border-block-start:10px solid #133a0f;
+  border-inline-start:10px solid #133a0f;
+  border-block-end:10px solid #133a0f;
+}
+
+
+ul li a:hover {
+  background-color: #005016;
+}
+
+h1 {
+  font-family: "Pliant", sans-serif;font-size: 35px;
+  color: green;
+}
